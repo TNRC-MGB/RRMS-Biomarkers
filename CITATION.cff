@@ -1,0 +1,110 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite both the software itself and the
+  accompanying manuscript.
+title: >-
+  Analysis code for "EBV reactivation priming of the peripheral immune system
+  in multiple sclerosis relapse"
+abstract: >-
+  Figure and analysis code for an observational study of longitudinal blood
+  samples from patients with relapsing-remitting multiple sclerosis, combining
+  single-cell RNA sequencing, bulk transcriptomics, multiparameter flow
+  cytometry and targeted viral RT-qPCR to construct a time-resolved atlas of
+  immune perturbations surrounding relapse.
+type: software
+license: MIT
+repository-code: "TBD before publication"
+keywords:
+  - multiple sclerosis
+  - Epstein-Barr virus
+  - single-cell RNA-seq
+  - B cells
+  - flow cytometry
+authors:
+  - family-names: King
+    given-names: Devin A.
+    email: devin.king.bio@gmail.com
+    affiliation: >-
+      Translational Neuroimmunology Research Center, Brigham and Women's
+      Hospital, Boston, MA
+  - family-names: Saxena
+    given-names: Shrishti
+    affiliation: >-
+      Translational Neuroimmunology Research Center, Brigham and Women's
+      Hospital, Boston, MA
+  - family-names: Caefer
+    given-names: Danielle
+    affiliation: >-
+      Translational Neuroimmunology Research Center, Brigham and Women's
+      Hospital, Boston, MA
+  - family-names: Downer
+    given-names: Kyle C.
+    affiliation: >-
+      Translational Neuroimmunology Research Center, Brigham and Women's
+      Hospital, Boston, MA
+  - family-names: Saucier
+    given-names: Laura E.
+    affiliation: >-
+      Brigham Multiple Sclerosis Center, Division of Neuroimmunology,
+      Department of Neurology, Mass General Brigham, Boston, MA
+  - family-names: Goodman
+    given-names: Ethan
+    affiliation: >-
+      Translational Neuroimmunology Research Center, Brigham and Women's
+      Hospital, Boston, MA
+  - family-names: Aracena
+    given-names: Jonmichael
+    affiliation: >-
+      Translational Neuroimmunology Research Center, Brigham and Women's
+      Hospital, Boston, MA
+  - family-names: Zhirova
+    given-names: Alena
+    affiliation: >-
+      Translational Neuroimmunology Research Center, Brigham and Women's
+      Hospital, Boston, MA
+  - family-names: Alchanat
+    given-names: Anthilia
+    affiliation: >-
+      Translational Neuroimmunology Research Center, Brigham and Women's
+      Hospital, Boston, MA
+  - family-names: Nolan
+    given-names: Saoirse
+    affiliation: >-
+      Translational Neuroimmunology Research Center, Brigham and Women's
+      Hospital, Boston, MA
+  - family-names: Lokhande
+    given-names: Hrishikesh
+    affiliation: >-
+      Translational Neuroimmunology Research Center, Brigham and Women's
+      Hospital, Boston, MA
+  - family-names: Weiner
+    given-names: Howard L.
+    affiliation: >-
+      Ann Romney Center, Brigham and Women's Hospital, Boston, MA
+  - family-names: Gewurz
+    given-names: Benjamin E.
+    affiliation: >-
+      Division of Infectious Diseases, Department of Medicine, Mass General
+      Brigham, Boston, MA
+  - family-names: Chitnis
+    given-names: Tanuja
+    email: tchitnis@bwh.harvard.edu
+    affiliation: >-
+      Brigham Multiple Sclerosis Center, Division of Neuroimmunology,
+      Department of Neurology, Mass General Brigham, Boston, MA
+
+# Complete before the repository is made public:
+#   - repository-code, once the GitHub URL is fixed
+#   - version and date-released, matching the tagged release
+#   - doi, from the Zenodo deposit
+#   - the preferred-citation block below, once the paper has a DOI
+#
+# preferred-citation:
+#   type: article
+#   title: >-
+#     EBV reactivation priming of the peripheral immune system in multiple
+#     sclerosis relapse
+#   authors: []
+#   journal: ""
+#   year:
+#   doi: ""

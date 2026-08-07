@@ -1,0 +1,67 @@
+# ==============================================================================
+
+# Ignore everything
+*
+
+# Misc
+!.gitignore
+!.gitattributes
+!README.md
+!LICENSE
+!CITATION.cff
+!renv.lock
+
+# README image(s)
+!docs/
+!docs/*.jpg
+!docs/*.png
+
+# Analysis code
+*.Rhistory
+!R/
+!R/*.R
+!R/README.md
+
+R/build_ebna2_gmt.R
+R/build_control_gmts.R
+
+# Small data files
+!data/
+!data/session_versions.tsv
+!data/session_info.txt
+!data/genesets/
+!data/genesets/*.txt
+!data/genesets/*.gmt
+!data/genesets/*.RDS
+!data/genesets/*.R
+!data/genesets/combined/
+!data/genesets/combined/*.gmt
+!data/genesets/control/
+!data/genesets/control/*.gmt
+!data/flow/
+!data/flow/*.csv
+!data/qpcr/
+!data/qpcr/*.csv
+!data/qpcr/*.R
+!data/frozen/
+!data/frozen/*.tsv.gz
+!data/frozen/*.txt
+
+# scDRS pipeline (MAGMA + scDRS command-line steps)
+!scdrs/
+!scdrs/*.sh
+!scdrs/*.py
+!scdrs/*.R
+!scdrs/README.md
+!scdrs/MS.gs
+!scdrs/requirements.txt
+
+# Bulk RNA-seq pipeline
+!bulk/
+!bulk/*.sh
+!bulk/*.R
+!bulk/README.md
+
+# Supplementary information
+!Supplementary Information/
+!Supplementary Information/*.xlsx

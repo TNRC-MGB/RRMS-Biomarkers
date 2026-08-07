@@ -1,0 +1,47 @@
+
+R version (from the .RDS header): 4.5.2
+Seurat object version:            5.3.0
+Object written:                   2026-03-05 23:24:02
+Cells:                            281799
+Features:                         36601
+Assays:                           RNA, prediction.score.celltype.l1, prediction.score.celltype.l2, prediction.score.celltype.l3, impADT
+Reductions:                       pca.first_pass, umap.first_pass, pca.second_pass, umap.second_pass, harmony, umap.harmony, integrated_dr, azimuth
+
+Recorded Seurat command history (@commands):
+--------------------------------------------
+* FindNeighbors.RNA.pca.first_pass
+    FindNeighbors(seu, reduction = pca.name, dims = dims, 
+    time: 2026-03-03 23:27:50
+* RunUMAP.RNA.pca.first_pass
+    RunUMAP(seu, reduction = pca.name, dims = dims, reduction.name = umap.name, 
+    time: 2026-03-03 23:35:36
+* NormalizeData.RNA
+    NormalizeData(seu, verbose = verbose)
+    time: 2026-03-05 15:32:26
+* FindVariableFeatures.RNA
+    FindVariableFeatures(seu, verbose = verbose)
+    time: 2026-03-05 15:33:08
+* ScaleData.RNA
+    ScaleData(seu, verbose = verbose)
+    time: 2026-03-05 15:33:27
+* RunPCA.RNA
+    RunPCA(seu, npcs = npcs, reduction.name = pca.name, verbose = verbose)
+    time: 2026-03-05 15:36:53
+* FindNeighbors.RNA.pca.second_pass
+    FindNeighbors(seu, reduction = pca.name, dims = dims, 
+    time: 2026-03-05 15:37:49
+* RunUMAP.RNA.pca.second_pass
+    RunUMAP(seu, reduction = pca.name, dims = dims, reduction.name = umap.name, 
+    time: 2026-03-05 15:45:17
+* Seurat..ProjectDim.RNA.harmony
+    Seurat::ProjectDim(object, reduction = reduction.save, overwrite = TRUE, 
+    time: 2026-03-05 16:32:09
+* FindNeighbors.RNA.harmony
+    FindNeighbors(seu, reduction = "harmony", dims = 1:30)
+    time: 2026-03-05 16:33:05
+* FindClusters
+    FindClusters(seu, resolution = 2, cluster.name = "clusters.harmony")
+    time: 2026-03-05 16:34:52
+* RunUMAP.RNA.harmony
+    RunUMAP(seu, reduction = "harmony", dims = 1:30, reduction.name = "umap.harmony")
+    time: 2026-03-05 16:40:36

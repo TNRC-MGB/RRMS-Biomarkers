@@ -1,0 +1,30 @@
+# Normalize line endings in the repository to LF, and let git check out whatever
+# suits the platform. Without this, files authored on Windows might end up as
+# CRLF and files authored elsewhere as LF, so the same file can show a whole-file
+# diff depending on who edited it last.
+* text=auto eol=lf
+
+# Explicit
+*.R      text eol=lf
+*.sh     text eol=lf
+*.py     text eol=lf
+*.md     text eol=lf
+*.tsv    text eol=lf
+*.csv    text eol=lf
+*.gmt    text eol=lf
+*.txt    text eol=lf
+*.cff    text eol=lf
+*.gs     text eol=lf
+
+# Language stats. GitHub's Linguist reads .gs as Google Apps Script, but here it
+# is a scDRS gene set file, so exclude it from the language breakdown.
+*.gs     linguist-detectable=false
+
+# Binary, never touched
+*.xlsx   binary
+*.RDS    binary
+*.rds    binary
+*.jpg    binary
+*.png    binary
+*.pdf    binary
+*.gz     binary
