@@ -241,7 +241,7 @@ seu <- run_seurat_standard(seu,
 ## ---- ORIGINAL (as run for the publication) - kept for reference -------------
 ## Clusters 31, 36, 37, 45, 47 and 49 of the first pass were identified by
 ## marker inspection as low-quality / ambient / residual-doublet populations and
-## removed (3.1% of cells). Those cluster NUMBERS are an emergent property of
+## removed. Those cluster NUMBERS are an emergent property of
 ## the Louvain run above: under a different Seurat/igraph version the same
 ## numbers point at different populations so they cannot be reapplied blindly.
 #
