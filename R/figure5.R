@@ -152,9 +152,9 @@ fit <- a |>
   mutate(
     P_BH = p.adjust(P, "BH"),
     sig = case_when(
-      P < .001 ~ "***",
-      P < .01 ~ "**",
-      P < .05 ~ "*",
+      P_BH < .001 ~ "***",
+      P_BH < .01 ~ "**",
+      P_BH < .05 ~ "*",
       TRUE ~ ""
     )
   )
