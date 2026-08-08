@@ -161,7 +161,10 @@ facet_floor <- res_volcano %>%
   mutate(logFC = 0, neglog10_fdr = 5)
 
 p_volcano <- ggplot(res_volcano, aes(x = logFC, y = neglog10_fdr)) +
-  geom_point(aes(color = volcano_group), alpha = 0.5, size = 0.7) +
+  ggrastr::rasterize(
+    geom_point(aes(color = volcano_group), alpha = 0.5, size = 0.7),
+    dpi = 600
+  ) +
   geom_blank(data = facet_floor, aes(x = logFC, y = neglog10_fdr)) +
   geom_vline(xintercept = 0, linetype = "dashed") +
   geom_hline(yintercept = -log10(FDR_THRESH), linetype = "dashed") +

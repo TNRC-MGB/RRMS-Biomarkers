@@ -82,7 +82,7 @@
 # plotting (scales masks purrr::discard - precedes the tidyverse)
 .req("scales", "ggplot2", "patchwork", "colorspace", "ggrepel")
 .opt("paletteer", "figure2.R (palettes)")
-.opt("ggrastr",   "figure2.R (rasterised UMAP layers)")
+.opt("ggrastr",   "figure2.R, extended_data_7.R (rasterized point layers)")
 
 # parallel / misc
 .req("BiocParallel")
