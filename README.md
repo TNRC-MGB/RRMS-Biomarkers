@@ -53,7 +53,7 @@ The scripts also use additional data and source files deposited in Zenodo
 
 | Data | Repository | Accession |
 | --- | --- | --- |
-| scRNA-seq sequencing data | GEO | TBD before publication |
+| scRNA-seq sequencing data | GEO | [GSE347634](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347634) |
 | CD19+ B cell bulk RNA-seq sequencing data | GEO | [GSE344578](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE344578) |
 | Whole-genome sequencing data (WGS) | controlled access | controlled access |
 | Genotype-based demultiplexing calls from WGS ([Vireo](https://doi.org/10.1186/s13059-019-1865-2) `donor_ids.tsv`) | Zenodo | [10.5281/zenodo.22806570](https://doi.org/10.5281/zenodo.22806570) |
