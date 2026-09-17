@@ -19,31 +19,29 @@ ___
 Corresponding author: Tanuja Chitnis, MD, Brigham Multiple Sclerosis Center,
 Mass General Brigham, Boston, MA.
 
-Code: Devin A. King, PhD
-([devin.king.neuro@gmail.com](mailto:devin.king.neuro@gmail.com), ORCID
-[0009-0005-6485-2362](https://orcid.org/0009-0005-6485-2362)). Also consider
-[opening an issue](https://github.com/TNRC-MGB/RRMS-Biomarkers/issues) to keep
-a record of how these analyses can be validated and extended.
+Lead author: [Devin A. King, PhD](mailto:devin.king.neuro@gmail.com)
+([ORCID](https://orcid.org/0009-0005-6485-2362)).
+
+Also, please consider [opening an issue](https://github.com/TNRC-MGB/RRMS-Biomarkers/issues)
+rather than emailing, to create a public record of how these analyses can be
+validated and extended for the benefit of the MS community.
 
 ___
 
 ## Overview
 
-Analysis and figure code for an observational study of longitudinal blood
-samples from patients with relapsing-remitting multiple sclerosis, combining
-scRNA-seq, CD19+ bulk RNA-seq, flow cytometry and EBV RT-qPCR into a
-time-resolved atlas of immune perturbations surrounding relapse. The cohort is
-135 donors and 240 PBMC samples: 69 pre-relapse, 44 relapse, 99 remission and
-21 healthy control, with donors contributing to more than one condition.
-Per-assay sample tables are Supplementary Tables S1 to S9.
+This repo contains the analysis and figure code for our observational study of
+longitudinal blood samples from patients with relapsing-remitting multiple
+sclerosis (MS), combining scRNA-seq, CD19+ bulk RNA-seq, flow cytometry and EBV
+RT-qPCR into a time-resolved atlas of immune perturbations surrounding relapse.
 
 ## Repository layout
 
 ```text
-R/                           figure and analysis scripts, one per figure
-bulk/                        CD19+ bulk RNA-seq: Salmon quantification
+R/                           Figure and analysis scripts
+bulk/                        CD19+ bulk RNA-seq
 scdrs/                       MAGMA and scDRS pipeline
-data/                        small inputs: gene sets, flow, qPCR, frozen tables
+data/                        Small inputs, including gene sets and frozen tables
 Supplementary Information/   Supplementary Tables S1 to S9
 docs/                        README images
 ```
@@ -55,14 +53,14 @@ The scripts also use additional data and source files deposited in Zenodo
 
 | Data | Repository | Accession |
 | --- | --- | --- |
-| Whole-PBMC scRNA-seq | GEO | TBD before publication |
-| CD19+ bulk RNA-seq | GEO | [GSE344578](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE344578) |
-| Whole-genome sequencing | controlled access | controlled access |
-| Genotype-based demultiplexing calls (Vireo `donor_ids.tsv`) | Zenodo | [10.5281/zenodo.22806570](https://doi.org/10.5281/zenodo.22806570) |
-| CD19+ flow cytometry | Zenodo | [10.5281/zenodo.22806570](https://doi.org/10.5281/zenodo.22806570) |
+| scRNA-seq sequencing data | GEO | TBD before publication |
+| CD19+ B cell bulk RNA-seq sequencing data | GEO | [GSE344578](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE344578) |
+| Whole-genome sequencing data (WGS) | controlled access | controlled access |
+| Genotype-based demultiplexing calls from WGS ([Vireo](https://doi.org/10.1186/s13059-019-1865-2) `donor_ids.tsv`) | Zenodo | [10.5281/zenodo.22806570](https://doi.org/10.5281/zenodo.22806570) |
+| CD19+ B cell flow cytometry | Zenodo | [10.5281/zenodo.22806570](https://doi.org/10.5281/zenodo.22806570) |
 | qPCR | Zenodo | [10.5281/zenodo.22806570](https://doi.org/10.5281/zenodo.22806570) |
-| Count matrices: Salmon and Cell Ranger | Zenodo | [10.5281/zenodo.22806570](https://doi.org/10.5281/zenodo.22806570) |
-| Derived objects: scDist fits, NEBULA table, etc | Zenodo | [10.5281/zenodo.22806570](https://doi.org/10.5281/zenodo.22806570) |
+| Transcript quantification/counts (Salmon and Cell Ranger) | Zenodo | [10.5281/zenodo.22806570](https://doi.org/10.5281/zenodo.22806570) |
+| Additional data files (scDist fits, NEBULA table, etc) | Zenodo | [10.5281/zenodo.22806570](https://doi.org/10.5281/zenodo.22806570) |
 
 All analyses that depend on whole-genome sequencing can be fully reproduced
 from the Vireo donor ID calls provided in Zenodo. All data are fully
@@ -73,8 +71,8 @@ de-identified. MS GWAS summary statistics are third-party; see
 
 R v4.5.2. Shell pipelines in `bulk/` and `scdrs/` were run under WSL Ubuntu
 24.04.3 LTS with command-line tools in a conda environment named `rrms`. Every
-script that uses the random number generator sets a seed; several steps remain
-sensitive to package versions.
+script that uses the random number generator sets a seed. However, please note
+that several steps are sensitive to package versions.
 
 ## Running the pipeline
 
@@ -88,7 +86,7 @@ sensitive to package versions.
    `zenodo/scdist/`; `R/preprocessing_bcells.R` writes the B-cell fits.
 4. **scDRS**, [`scdrs/README.md`](scdrs/README.md): MAGMA gene analysis on the
    MS GWAS, then per-cell disease-relevance scores.
-5. **Figures**: the scripts in [`R/README.md`](R/README.md), rendered to
+5. **Figures**: the scripts in [`R/README.md`](R/README.md), saved to
    `Intermediate/`.
 
 ## Figures
