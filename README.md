@@ -64,12 +64,10 @@ The scripts also use additional data and source files deposited in Zenodo
 | Count matrices: Salmon and Cell Ranger | Zenodo | [10.5281/zenodo.22806570](https://doi.org/10.5281/zenodo.22806570) |
 | Derived objects: scDist fits, NEBULA table, etc | Zenodo | [10.5281/zenodo.22806570](https://doi.org/10.5281/zenodo.22806570) |
 
-Vireo intermediates (per-donor VCFs, cellSNP allele counts, assignment
-probabilities) carry identifying genotypes and fall under controlled access.
-MS GWAS summary statistics are third-party; see
-[`scdrs/README.md`](scdrs/README.md). Sample tables use de-identified
-`Sample_ID` and `Donor_ID`; no medical record numbers, draw dates or crosswalk
-are distributed.
+All analyses that depend on whole-genome sequencing can be fully reproduced
+from the Vireo donor ID calls provided in Zenodo. All data are fully
+de-identified. MS GWAS summary statistics are third-party; see
+[`scdrs/README.md`](scdrs/README.md).
 
 ## Software environment
 
