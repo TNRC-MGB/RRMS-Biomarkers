@@ -9,7 +9,7 @@ Ethan Goodman, Jonmichael Aracena, Alena Zhirova, Anthilia Alchanat, Saoirse Nol
 Hrishikesh Lokhande, Howard L. Weiner, Benjamin E. Gewurz &
 Tanuja Chitnis [✉](mailto:tchitnis@bwh.harvard.edu)
 
-*Nature Medicine* (2026) | [Cite this article](https://doi.org/10.1038/s41591-026-04665-3#citeas)
+*Nature Medicine* (2026) | [Cite the article](https://doi.org/10.1038/s41591-026-04665-3#citeas)
 
 ___
 
