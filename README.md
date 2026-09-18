@@ -9,11 +9,11 @@ Ethan Goodman, Jonmichael Aracena, Alena Zhirova, Anthilia Alchanat, Saoirse Nol
 Hrishikesh Lokhande, Howard L. Weiner, Benjamin E. Gewurz &
 Tanuja Chitnis [✉](mailto:tchitnis@bwh.harvard.edu)
 
-*Nature Medicine* (2026) | [Cite this article](https://doi.org/10.1038/s41591-026-04665-3)
+*Nature Medicine* (2026) | [Cite this article](https://doi.org/10.1038/s41591-026-04665-3#citeas)
 
 ___
 
-**Contact**: [Devin A. King, PhD](mailto:devin.king.neuro@gmail.com); [ORCID](https://orcid.org/0009-0005-6485-2362)
+**Contact**: [Devin A. King, PhD](mailto:devin.king.neuro@gmail.com) | [ORCID](https://orcid.org/0009-0005-6485-2362)
 
 **scRNA-seq raw sequencing data**: [GSE347634](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347634)
 
