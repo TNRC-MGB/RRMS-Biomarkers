@@ -19,7 +19,7 @@ ___
 
 **CD19+ B cell raw sequencing data**: [GSE344578](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE344578)
 
-**Analysis code**: [*This GitHub repository*](https://github.com/TNRC-MGB/RRMS-Biomarkers)
+**Analysis code**: [*This GitHub repository*](https://github.com/TNRC-MGB/RRMS-Biomarkers) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **Data files**: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22806570.svg)](https://doi.org/10.5281/zenodo.22806570)
 
