@@ -1,28 +1,29 @@
-# EBV reactivation priming of the peripheral immune system in multiple sclerosis relapse
-___
-
 ![](docs/cover_image.jpg)
 
 <sub>Cover art by Sarah C. Evans.</sub>
 
-## Please cite
-King, D. A., Saxena, S., Caefer, D., Downer, K. C., Saucier, L. E., Goodman, E.,
-Aracena, J., Zhirova, A., Alchanat, A., Nolan, S., Lokhande, H., Weiner, H. L.,
-Gewurz, B. E. & Chitnis, T. EBV reactivation priming of the peripheral immune
-system in multiple sclerosis relapse. *Nat. Med.* (2026).
-https://doi.org/10.1038/s41591-026-04665-3
+# EBV reactivation priming of the peripheral immune system in multiple sclerosis relapse
+
+Devin A. King, Shrishti Saxena, Danielle Caefer, Kyle C. Downer, Laura E. Saucier,
+Ethan Goodman, Jonmichael Aracena, Alena Zhirova, Anthilia Alchanat, Saoirse Nolan,
+Hrishikesh Lokhande, Howard L. Weiner, Benjamin E. Gewurz &
+Tanuja Chitnis [✉](mailto:tchitnis@bwh.harvard.edu)
+
+*Nature Medicine* (2026) | [Cite this article](https://doi.org/10.1038/s41591-026-04665-3)
 
 ___
 
-## Contact
+**Contact**: [Devin A. King, PhD](mailto:devin.king.neuro@gmail.com); [ORCID](https://orcid.org/0009-0005-6485-2362)
 
-Corresponding author: Tanuja Chitnis, MD, Brigham Multiple Sclerosis Center,
-Mass General Brigham, Boston, MA.
+**scRNA-seq raw sequencing data**: [GSE347634](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE347634)
 
-Lead author: [Devin A. King, PhD](mailto:devin.king.neuro@gmail.com)
-([ORCID](https://orcid.org/0009-0005-6485-2362)).
+**CD19+ B cell raw sequencing data**: [GSE344578](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE344578)
 
-Also, please consider [opening an issue](https://github.com/TNRC-MGB/RRMS-Biomarkers/issues)
+**Analysis code**: [*This GitHub repository*](https://github.com/TNRC-MGB/RRMS-Biomarkers)
+
+**Data files**: [https://doi.org/10.5281/zenodo.22806570](https://doi.org/10.5281/zenodo.22806570)
+
+Please consider *[opening an issue](https://github.com/TNRC-MGB/RRMS-Biomarkers/issues)*
 rather than emailing, to create a public record of how these analyses can be
 validated and extended for the benefit of the MS community.
 
