@@ -21,7 +21,7 @@ ___
 
 **Analysis code**: [*This GitHub repository*](https://github.com/TNRC-MGB/RRMS-Biomarkers)
 
-**Data files**: [https://doi.org/10.5281/zenodo.22806570](https://doi.org/10.5281/zenodo.22806570)
+**Data files**: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22806570.svg)](https://doi.org/10.5281/zenodo.22806570)
 
 Please consider *[opening an issue](https://github.com/TNRC-MGB/RRMS-Biomarkers/issues)*
 rather than emailing, to create a public record of how these analyses can be
